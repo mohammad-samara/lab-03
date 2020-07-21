@@ -1,0 +1,43 @@
+select{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+main{
+    /* display: inline-block; */
+    overflow: auto;
+    margin: 10px auto 10px auto;
+}
+
+.imgInfo{
+    border: 3px blueviolet solid;
+    width:32%;
+    height: 350px;
+    float: left;
+    margin: 5px;
+    text-align: center;
+    background-color: rgb(129, 140, 189);
+    color: rgb(215, 253, 0);
+}
+.imgInfo img{
+    width: 75%;
+    height: 70%;
+}
+#photo-template{
+    display: none;
+}
+.imgInfo h2{
+    margin: 5px auto 10px auto;
+    font-weight: bolder;
+    color: gainsboro;
+}
+.imgInfo p{
+    margin: 15px auto 10px auto;
+}
+footer{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+    background-color: gray;
+    color: honeydew;
+}
